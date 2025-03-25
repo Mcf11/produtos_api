@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface ProdutoRepository extends JpaRepository<Produto, String> {
 
-    // Implementando metodo findbyproduct_name que não existia nos métodos genéricos
+    // Implementando metodo findbyname que não existia nos métodos genéricos
     List<Produto> findByName(String name);
 }

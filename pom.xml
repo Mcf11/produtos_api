@@ -32,7 +32,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId> <!-- application.yml são configs desse server e data.sql a query a ser executada para criação de tabela -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
