@@ -11,7 +11,7 @@ import jakarta.persistence.Id;                  // Gera o id automaticamente
 
 
 @Entity
-@Table(name="produto")
+@Table(name="tb_produto")
 public class Produto {
     @Id
     @Column(name = "id")
